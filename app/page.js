@@ -13,7 +13,7 @@ export default function Home() {
       <h2>Hellow World</h2>
       <Button>Subscribe</Button>
       <Button onClick={()=>setTheme('dark')}>Dark Mode</Button>
-      <Button onClick={()=>setTheme('light')}>Light Mode On</Button>
+      <Button onClick={()=>setTheme('light')}>Light Mode</Button>
     </div>
   );
 }
